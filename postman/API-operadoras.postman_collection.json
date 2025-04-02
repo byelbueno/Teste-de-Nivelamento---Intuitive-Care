@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "5508d3a7-015a-4924-acbc-9970a958367d",
+		"name": "API operadoras teste",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "43654389"
+	},
+	"item": [
+		{
+			"name": "Unimed teste",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/buscar-operadoras?termo=unimed",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"buscar-operadoras"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "unimed"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hospital teste",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/buscar-operadoras?termo=hospital",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"buscar-operadoras"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "hospital"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saúde teste",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/buscar-operadoras?termo=saúde",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"buscar-operadoras"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "saúde"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "administradora teste",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/buscar-operadoras?termo=administradora\n\n\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"buscar-operadoras"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "administradora\n\n\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "odontologia teste",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/buscar-operadoras?termo=odontologia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"buscar-operadoras"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "odontologia"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
